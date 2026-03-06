@@ -1,0 +1,362 @@
+.probonoseo-sidebar-wrap {
+	padding: 16px;
+	font-size: 13px;
+}
+
+.probonoseo-sidebar-loading {
+	padding: 20px;
+	text-align: center;
+}
+
+.probonoseo-sidebar-tabs {
+	display: flex;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f9f9f9;
+	margin: -16px -16px 16px -16px;
+	padding: 0 4px;
+}
+
+.probonoseo-sidebar-tab {
+	padding: 10px 12px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 400;
+	color: #666;
+	border-bottom: 2px solid transparent;
+	flex: 1;
+	text-align: center;
+}
+
+.probonoseo-sidebar-tab:hover {
+	color: #333;
+}
+
+.probonoseo-sidebar-tab-active {
+	background: #fff;
+	font-weight: 600;
+	color: #1e40af;
+	border-bottom-color: #1e40af;
+}
+
+.probonoseo-sidebar-panel {
+	display: none;
+}
+
+.probonoseo-sidebar-panel-active {
+	display: block;
+}
+
+.probonoseo-sidebar-spacer {
+	height: 12px;
+}
+
+.probonoseo-sidebar-spacer-lg {
+	height: 16px;
+}
+
+.probonoseo-sidebar-hr {
+	border: none;
+	border-top: 1px solid #e0e0e0;
+	margin: 12px 0;
+}
+
+.probonoseo-sidebar-section-title {
+	margin: 12px 0 8px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.probonoseo-sidebar-field-label {
+	font-weight: 600;
+	font-size: 12px;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+}
+
+.probonoseo-sidebar-field-actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6px;
+}
+
+.probonoseo-sidebar-gen-btn {
+	font-size: 12px;
+	padding: 4px 12px;
+	min-height: 28px;
+}
+
+.probonoseo-sidebar-char-counter {
+	font-size: 12px;
+	color: #888;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.probonoseo-sidebar-status {
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.probonoseo-sidebar-status-good {
+	background: #2e7d32;
+}
+
+.probonoseo-sidebar-status-warn {
+	background: #ed6c02;
+}
+
+.probonoseo-sidebar-status-bad {
+	background: #c62828;
+}
+
+.probonoseo-sidebar-serp {
+	margin-bottom: 16px;
+}
+
+.probonoseo-sidebar-serp-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 12px;
+	font-family: Arial, sans-serif;
+}
+
+.probonoseo-sidebar-serp-url {
+	font-size: 12px;
+	color: #202124;
+	margin-bottom: 4px;
+}
+
+.probonoseo-sidebar-serp-title {
+	font-size: 18px;
+	color: #1a0dab;
+	line-height: 1.3;
+	margin-bottom: 4px;
+	word-break: break-all;
+}
+
+.probonoseo-sidebar-serp-desc {
+	font-size: 13px;
+	color: #4d5156;
+	line-height: 1.5;
+	word-break: break-all;
+}
+
+.probonoseo-sidebar-social {
+	margin-bottom: 16px;
+}
+
+.probonoseo-sidebar-social-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.probonoseo-sidebar-social-img {
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	display: block;
+}
+
+.probonoseo-sidebar-social-noimg {
+	width: 100%;
+	height: 140px;
+	background: #f0f0f0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #999;
+	font-size: 13px;
+}
+
+.probonoseo-sidebar-social-content {
+	padding: 12px;
+}
+
+.probonoseo-sidebar-social-domain {
+	font-size: 11px;
+	color: #888;
+	text-transform: uppercase;
+}
+
+.probonoseo-sidebar-social-title {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	margin: 4px 0;
+	line-height: 1.3;
+	word-break: break-all;
+}
+
+.probonoseo-sidebar-social-desc {
+	font-size: 13px;
+	color: #666;
+	line-height: 1.4;
+	word-break: break-all;
+}
+
+.probonoseo-sidebar-image-selector {
+	margin-bottom: 12px;
+}
+
+.probonoseo-sidebar-image-field {
+	display: flex;
+	gap: 8px;
+}
+
+.probonoseo-sidebar-image-input {
+	flex: 1;
+	padding: 8px 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+.probonoseo-sidebar-image-field .components-button {
+	min-height: 36px;
+	padding: 0 14px;
+	font-size: 13px;
+}
+
+.probonoseo-sidebar-image-thumb {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.probonoseo-sidebar-image-remove {
+	margin-top: 6px;
+	font-size: 12px;
+}
+
+.probonoseo-sidebar-save-btn {
+	width: 100%;
+	justify-content: center;
+	min-height: 40px;
+	font-size: 14px;
+}
+
+.probonoseo-sidebar-saved-msg {
+	text-align: center;
+	color: #2e7d32;
+	font-size: 13px;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.probonoseo-sidebar-wrap .components-text-control__input,
+.probonoseo-sidebar-wrap .components-textarea-control__input {
+	font-size: 13px;
+	padding: 8px 10px;
+}
+
+.probonoseo-sidebar-wrap .components-base-control__label {
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.probonoseo-sidebar-analyze-btn {
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.probonoseo-sidebar-score-display {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.probonoseo-sidebar-score-num {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.probonoseo-sidebar-score-good {
+	color: #2e7d32;
+}
+
+.probonoseo-sidebar-score-warn {
+	color: #ed6c02;
+}
+
+.probonoseo-sidebar-score-bad {
+	color: #c62828;
+}
+
+.probonoseo-sidebar-score-label {
+	font-size: 13px;
+	color: #666;
+}
+
+.probonoseo-sidebar-score-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+
+.probonoseo-sidebar-score-row-label {
+	width: 80px;
+	font-size: 12px;
+	color: #666;
+}
+
+.probonoseo-sidebar-score-bar {
+	flex: 1;
+	height: 8px;
+	background: #e0e0e0;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.probonoseo-sidebar-score-bar-fill {
+	height: 100%;
+	border-radius: 4px;
+}
+
+.probonoseo-sidebar-score-bar-good {
+	background: #2e7d32;
+}
+
+.probonoseo-sidebar-score-bar-warn {
+	background: #ed6c02;
+}
+
+.probonoseo-sidebar-score-bar-bad {
+	background: #c62828;
+}
+
+.probonoseo-sidebar-score-row-value {
+	width: 28px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: right;
+}
+
+.probonoseo-sidebar-metric-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 0;
+	font-size: 13px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.probonoseo-sidebar-metric-label {
+	color: #666;
+}
+
+.probonoseo-sidebar-metric-value {
+	font-weight: 600;
+}

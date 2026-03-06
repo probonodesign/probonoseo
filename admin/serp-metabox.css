@@ -1,0 +1,142 @@
+.probonoseo-schema-container {
+	padding: 8px 0;
+}
+
+.postbox[id^="probonoseo_"][id$="_metabox"] {
+	border-left: 6px solid #4a90e2;
+	border-top: 3px solid #4a90e2;
+	margin-bottom: 16px;
+	box-shadow: 0 2px 8px rgba(74, 144, 226, 0.15);
+}
+
+.postbox[id^="probonoseo_"][id$="_metabox"] .postbox-header {
+	background: linear-gradient(135deg, #e8f2fd 0%, #f0f6ff 100%);
+	border-bottom: 1px solid #c5d9f0;
+}
+
+.postbox[id^="probonoseo_"][id$="_metabox"] h2.hndle {
+	color: #1a5fa8;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.probonoseo-schema-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px 24px;
+	margin-bottom: 16px;
+}
+
+.probonoseo-schema-grid.probonoseo-schema-grid-full {
+	grid-template-columns: 1fr;
+}
+
+.probonoseo-schema-row {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.probonoseo-schema-row label {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.probonoseo-schema-row input[type="text"],
+.probonoseo-schema-row input[type="number"],
+.probonoseo-schema-row input[type="url"],
+.probonoseo-schema-row input[type="datetime-local"],
+.probonoseo-schema-row textarea,
+.probonoseo-schema-row select {
+	width: 100%;
+	font-size: 14px;
+	padding: 8px 10px;
+	border: 1px solid #c3c4c7;
+	border-radius: 3px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.probonoseo-schema-row textarea {
+	resize: vertical;
+	min-height: 70px;
+}
+
+.probonoseo-schema-row input:focus,
+.probonoseo-schema-row textarea:focus,
+.probonoseo-schema-row select:focus {
+	border-color: #4a90e2;
+	outline: none;
+	box-shadow: 0 0 0 1px #4a90e2;
+}
+
+.probonoseo-schema-step {
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding: 12px;
+	margin-bottom: 10px;
+}
+
+.probonoseo-schema-step-title {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+	margin-bottom: 8px;
+}
+
+.probonoseo-schema-faq-item {
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding: 12px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.probonoseo-schema-faq-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.probonoseo-schema-faq-num {
+	font-size: 14px;
+	font-weight: 600;
+	color: #4a90e2;
+}
+
+.probonoseo-schema-faq-remove {
+	background: none;
+	border: none;
+	color: #999;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 0;
+	line-height: 1;
+}
+
+.probonoseo-schema-faq-remove:hover {
+	color: #dc3232;
+}
+
+.probonoseo-schema-save-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 16px;
+	padding-top: 12px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.probonoseo-schema-save-msg {
+	font-size: 13px;
+	color: #46b450;
+	display: none;
+}
+
+.probonoseo-schema-save-msg.error {
+	color: #dc3232;
+}
